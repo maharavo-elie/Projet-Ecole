@@ -1,0 +1,126 @@
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\universite.exe.config
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\universite.exe
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\universite.pdb
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\Google.Protobuf.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\Guna.UI2.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\MySql.Data.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Buffers.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Memory.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\ZstdSharp.dll
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\Google.Protobuf.pdb
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\Google.Protobuf.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\MySql.Data.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Buffers.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Memory.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.csproj.AssemblyReference.cache
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Accueil.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Ajout_secretaire.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Corbeille.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.CorbeilleEtudiant.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.CorbeilleSecretaire.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Dashboard.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Etudiant.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Form1.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Frais.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Inscription.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.ListeEtudiant.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Login.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.ModifierEtudiant.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.ModifierUser.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Params.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Personnelle.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Properties.Resources.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Parametre.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Secretaire.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.SingIn.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.ToustEtudiants.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.Reinsc.resources
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.csproj.GenerateResource.cache
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.csproj.CoreCompileInputs.cache
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.csproj.Up2Date
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.exe
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.pdb
+C:\Users\Tsi Ahy\Desktop\universite\universite\obj\Debug\universite.VoirConfig.resources
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\universite.exe.config
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\universite.exe
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\universite.pdb
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\BouncyCastle.Cryptography.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\Google.Protobuf.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\Guna.UI2.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\K4os.Hash.xxHash.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\MySql.Data.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Buffers.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.IO.Pipelines.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Memory.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Numerics.Vectors.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\ZstdSharp.dll
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\BouncyCastle.Cryptography.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\Google.Protobuf.pdb
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\Google.Protobuf.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\K4os.Hash.xxHash.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\MySql.Data.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Buffers.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.IO.Pipelines.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Memory.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Numerics.Vectors.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ENI\projet\C#\Projet\universite\universite\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.csproj.AssemblyReference.cache
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Accueil.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Ajout_secretaire.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.VoirConfig.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Corbeille.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.CorbeilleEtudiant.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.CorbeilleSecretaire.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Dashboard.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Etudiant.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Form1.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Frais.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Inscription.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.ListeEtudiant.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Login.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.ModifierEtudiant.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.ModifierUser.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Params.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Personnelle.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Properties.Resources.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Parametre.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Secretaire.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.SingIn.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.ToustEtudiants.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.Reinsc.resources
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.csproj.GenerateResource.cache
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.csproj.CoreCompileInputs.cache
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.csproj.Up2Date
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.exe
+D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.pdb
