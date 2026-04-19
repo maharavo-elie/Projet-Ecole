@@ -41,6 +41,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Mot = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
@@ -70,6 +71,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.Mot);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.pictureBox1);
@@ -212,6 +214,17 @@
             this.panel1.Size = new System.Drawing.Size(347, 61);
             this.panel1.TabIndex = 0;
             // 
+            // Mot
+            // 
+            this.Mot.AutoSize = true;
+            this.Mot.Location = new System.Drawing.Point(118, 285);
+            this.Mot.Name = "Mot";
+            this.Mot.Size = new System.Drawing.Size(102, 13);
+            this.Mot.TabIndex = 11;
+            this.Mot.TabStop = true;
+            this.Mot.Text = "Mot de passe oublié";
+            this.Mot.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Mot_LinkClicked);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -247,5 +260,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2Button Btn_connecter;
+        private System.Windows.Forms.LinkLabel Mot;
     }
 }

@@ -39,7 +39,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(362, 16);
+            this.label1.Location = new System.Drawing.Point(359, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 23);
             this.label1.TabIndex = 0;
@@ -55,9 +55,9 @@
             this.CorbeilleEtudiant.FillColor = System.Drawing.Color.RoyalBlue;
             this.CorbeilleEtudiant.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CorbeilleEtudiant.ForeColor = System.Drawing.Color.White;
-            this.CorbeilleEtudiant.Location = new System.Drawing.Point(196, 54);
+            this.CorbeilleEtudiant.Location = new System.Drawing.Point(196, 42);
             this.CorbeilleEtudiant.Name = "CorbeilleEtudiant";
-            this.CorbeilleEtudiant.Size = new System.Drawing.Size(153, 34);
+            this.CorbeilleEtudiant.Size = new System.Drawing.Size(153, 31);
             this.CorbeilleEtudiant.TabIndex = 1;
             this.CorbeilleEtudiant.Text = "Etudiants";
             this.CorbeilleEtudiant.Click += new System.EventHandler(this.CorbeilleEtudiant_Click);
@@ -72,9 +72,9 @@
             this.SecretaireCorbeille.FillColor = System.Drawing.Color.RoyalBlue;
             this.SecretaireCorbeille.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SecretaireCorbeille.ForeColor = System.Drawing.Color.White;
-            this.SecretaireCorbeille.Location = new System.Drawing.Point(472, 54);
+            this.SecretaireCorbeille.Location = new System.Drawing.Point(472, 42);
             this.SecretaireCorbeille.Name = "SecretaireCorbeille";
-            this.SecretaireCorbeille.Size = new System.Drawing.Size(153, 34);
+            this.SecretaireCorbeille.Size = new System.Drawing.Size(153, 31);
             this.SecretaireCorbeille.TabIndex = 4;
             this.SecretaireCorbeille.Text = "Secretaires";
             this.SecretaireCorbeille.Click += new System.EventHandler(this.SecretaireCorbeille_Click);
@@ -82,9 +82,9 @@
             // CorbeillePanel
             // 
             this.CorbeillePanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.CorbeillePanel.Location = new System.Drawing.Point(0, 94);
+            this.CorbeillePanel.Location = new System.Drawing.Point(0, 91);
             this.CorbeillePanel.Name = "CorbeillePanel";
-            this.CorbeillePanel.Size = new System.Drawing.Size(815, 452);
+            this.CorbeillePanel.Size = new System.Drawing.Size(817, 398);
             this.CorbeillePanel.TabIndex = 5;
             // 
             // Corbeille
@@ -96,7 +96,7 @@
             this.Controls.Add(this.CorbeilleEtudiant);
             this.Controls.Add(this.label1);
             this.Name = "Corbeille";
-            this.Size = new System.Drawing.Size(815, 546);
+            this.Size = new System.Drawing.Size(817, 489);
             this.Load += new System.EventHandler(this.Corbeille_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

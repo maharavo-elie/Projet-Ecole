@@ -36,6 +36,7 @@
             this.Niveau = new System.Windows.Forms.ComboBox();
             this.AfficherBtn = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.ExportListBtn = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.Tableau)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +58,7 @@
             this.Tableau.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Tableau.EnableHeadersVisualStyles = false;
             this.Tableau.GridColor = System.Drawing.Color.Silver;
-            this.Tableau.Location = new System.Drawing.Point(0, 43);
+            this.Tableau.Location = new System.Drawing.Point(0, 41);
             this.Tableau.Name = "Tableau";
             this.Tableau.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.Tableau.RowHeadersVisible = false;
@@ -68,8 +69,9 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Blue;
             this.Tableau.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.Tableau.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Tableau.Size = new System.Drawing.Size(815, 446);
-            this.Tableau.TabIndex = 1;            // 
+            this.Tableau.Size = new System.Drawing.Size(817, 400);
+            this.Tableau.TabIndex = 1;
+            // 
             // AnneeCombo
             // 
             this.AnneeCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -82,7 +84,7 @@
             "2027-2028",
             "2028-2029",
             "2029-2030"});
-            this.AnneeCombo.Location = new System.Drawing.Point(277, 12);
+            this.AnneeCombo.Location = new System.Drawing.Point(252, 12);
             this.AnneeCombo.Name = "AnneeCombo";
             this.AnneeCombo.Size = new System.Drawing.Size(119, 23);
             this.AnneeCombo.TabIndex = 65;
@@ -99,9 +101,9 @@
             "2027-2028",
             "2028-2029",
             "2029-2030"});
-            this.Parcours.Location = new System.Drawing.Point(413, 12);
+            this.Parcours.Location = new System.Drawing.Point(386, 12);
             this.Parcours.Name = "Parcours";
-            this.Parcours.Size = new System.Drawing.Size(119, 23);
+            this.Parcours.Size = new System.Drawing.Size(68, 23);
             this.Parcours.TabIndex = 66;
             // 
             // Niveau
@@ -116,9 +118,9 @@
             "2027-2028",
             "2028-2029",
             "2029-2030"});
-            this.Niveau.Location = new System.Drawing.Point(549, 12);
+            this.Niveau.Location = new System.Drawing.Point(471, 12);
             this.Niveau.Name = "Niveau";
-            this.Niveau.Size = new System.Drawing.Size(119, 23);
+            this.Niveau.Size = new System.Drawing.Size(68, 23);
             this.Niveau.TabIndex = 67;
             // 
             // AfficherBtn
@@ -131,9 +133,9 @@
             this.AfficherBtn.FillColor = System.Drawing.Color.LightPink;
             this.AfficherBtn.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AfficherBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.AfficherBtn.Location = new System.Drawing.Point(697, 10);
+            this.AfficherBtn.Location = new System.Drawing.Point(551, 9);
             this.AfficherBtn.Name = "AfficherBtn";
-            this.AfficherBtn.Size = new System.Drawing.Size(94, 27);
+            this.AfficherBtn.Size = new System.Drawing.Size(80, 27);
             this.AfficherBtn.TabIndex = 68;
             this.AfficherBtn.Text = "Afficher";
             this.AfficherBtn.Click += new System.EventHandler(this.AfficherBtn_Click);
@@ -149,11 +151,29 @@
             this.label1.TabIndex = 69;
             this.label1.Text = "Triage des étudiants";
             // 
+            // ExportListBtn
+            // 
+            this.ExportListBtn.BorderRadius = 10;
+            this.ExportListBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ExportListBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ExportListBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ExportListBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ExportListBtn.FillColor = System.Drawing.Color.SpringGreen;
+            this.ExportListBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.ExportListBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ExportListBtn.Location = new System.Drawing.Point(637, 8);
+            this.ExportListBtn.Name = "ExportListBtn";
+            this.ExportListBtn.Size = new System.Drawing.Size(169, 29);
+            this.ExportListBtn.TabIndex = 70;
+            this.ExportListBtn.Text = "Exportation de la liste";
+            this.ExportListBtn.Click += new System.EventHandler(this.ExportListBtn_Click);
+            // 
             // ListeEtudiant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Controls.Add(this.ExportListBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AfficherBtn);
             this.Controls.Add(this.Niveau);
@@ -161,7 +181,7 @@
             this.Controls.Add(this.AnneeCombo);
             this.Controls.Add(this.Tableau);
             this.Name = "ListeEtudiant";
-            this.Size = new System.Drawing.Size(815, 489);
+            this.Size = new System.Drawing.Size(817, 441);
             this.Load += new System.EventHandler(this.ListeEtudiant_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Tableau)).EndInit();
             this.ResumeLayout(false);
@@ -177,5 +197,6 @@
         private System.Windows.Forms.ComboBox Niveau;
         private Guna.UI2.WinForms.Guna2Button AfficherBtn;
         private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2Button ExportListBtn;
     }
 }

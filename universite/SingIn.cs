@@ -75,7 +75,7 @@ namespace universite
                 }
                 else if (!Regex.IsMatch(mail, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
                 {
-                    MessageBox.Show("Email non valide", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error );
+                    MessageBox.Show("Email non valide", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else if (password != cpassword)
                 {
@@ -97,7 +97,8 @@ namespace universite
                     this.ParentForm.Hide();
                     Session.ecole = univ;
                     Session.type = grade;
-                    Dashboard dashboard = new Dashboard();
+                    Session.ecole = mail;
+                    FenetrePrincipale dashboard = new FenetrePrincipale();
                     dashboard.Show();
                     conn.Close();
                 }

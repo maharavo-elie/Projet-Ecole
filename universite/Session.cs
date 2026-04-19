@@ -10,5 +10,6 @@ namespace universite
     {
         public static string type;
         public static string ecole;
+        public static string email;
     }
 }

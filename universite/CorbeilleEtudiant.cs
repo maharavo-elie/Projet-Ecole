@@ -22,6 +22,19 @@ namespace universite
         {
             InfoEtudiant();
             LoadData();
+
+            // Fixer le DataGridView 
+            Tableau.ReadOnly = true;
+            // Empêcher l'ajout/suppression de lignes directement
+            Tableau.AllowUserToAddRows = false;
+            Tableau.AllowUserToDeleteRows = false;
+            // Désactiver le redimensionnement des colonnes 
+            Tableau.AllowUserToResizeColumns = false;
+            Tableau.AllowUserToResizeRows = false;
+            // Sélection par ligne entière 
+            Tableau.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            // Empêcher l'édition
+            Tableau.EditMode = DataGridViewEditMode.EditProgrammatically;
         }
 
         void LoadData()
@@ -64,7 +77,7 @@ namespace universite
             Tableau.Columns["id"].Visible = false;
             Tableau.RowHeadersVisible = false;
 
-            //Information un secretaire//
+            //Information Etudiant//
             DataGridViewButtonColumn voir_info = new DataGridViewButtonColumn();
             voir_info.HeaderText = "";
             voir_info.Text = "information";
@@ -72,7 +85,7 @@ namespace universite
             voir_info.UseColumnTextForButtonValue = true;
             Tableau.Columns.Add(voir_info);
 
-            //Restaurer un secretaire//
+            //Restaurer Etudiant//
             DataGridViewButtonColumn restaurer = new DataGridViewButtonColumn();
             restaurer.HeaderText = "";
             restaurer.Text = "restaurer";
@@ -80,7 +93,7 @@ namespace universite
             restaurer.UseColumnTextForButtonValue = true;
             Tableau.Columns.Add(restaurer);
 
-            //Supprimer un secretaire//
+            //Supprimer Etudiant//
             DataGridViewButtonColumn supprimer = new DataGridViewButtonColumn();
             supprimer.HeaderText = "";
             supprimer.Text = "supprimer";
@@ -89,6 +102,7 @@ namespace universite
             Tableau.Columns.Add(supprimer);
 
             Tableau.CellClick += Tableau_CellClick;
+            Tableau.CellPainting += Tableau_CellPainting;
             Tableau.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             Tableau.AllowUserToAddRows = false;
         }
@@ -216,9 +230,77 @@ namespace universite
             }
         }
 
-        private void Tableau_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        //----NEW MDODIFICATION----\\
+        private void Tableau_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
         {
+            if (e.RowIndex >= 0)
+            {
+                bool isInfoColumn = e.ColumnIndex == Tableau.Columns["information"]?.Index;
+                bool isRestaurerColumn = e.ColumnIndex == Tableau.Columns["restaurer"]?.Index;
+                bool isSupprimerColumn = e.ColumnIndex == Tableau.Columns["supprimer"]?.Index;
 
+                if (isInfoColumn || isRestaurerColumn || isSupprimerColumn)
+                {
+                    e.Paint(e.CellBounds, DataGridViewPaintParts.All & ~DataGridViewPaintParts.ContentForeground);
+
+                    Image icon = null;
+                    string buttonText = "";
+
+                    if (isInfoColumn)
+                    {
+                        icon = Properties.Resources.icon_info;
+                        buttonText = "information";
+                    }
+                    else if (isRestaurerColumn)
+                    {
+                        icon = Properties.Resources.icon_restaurer;
+                        buttonText = "restaurer";
+                    }
+                    else if (isSupprimerColumn)
+                    {
+                        icon = Properties.Resources.icon_delet;
+                        buttonText = "supprimer";
+                    }
+
+                    if (icon != null)
+                    {
+                        int iconSize = 16;
+                        int spacing = 4; // espace entre icône et texte
+
+                        // Mesurer la largeur du texte
+                        Size textSize = TextRenderer.MeasureText(e.Graphics, buttonText, e.CellStyle.Font);
+
+                        // Largeur totale = icône + espace + texte
+                        int totalWidth = iconSize + spacing + textSize.Width;
+
+                        // Point de départ X pour centrer le tout
+                        int startX = e.CellBounds.X + (e.CellBounds.Width - totalWidth) / 2;
+
+                        // -------- DESSINER L'ICÔNE --------
+                        Rectangle iconRect = new Rectangle(
+                            startX,
+                            e.CellBounds.Y + (e.CellBounds.Height - iconSize) / 2,
+                            iconSize,
+                            iconSize
+                        );
+                        e.Graphics.DrawImage(icon, iconRect);
+
+                        // -------- DESSINER LE TEXTE à côté de l'icône --------
+                        Rectangle textRect = new Rectangle(
+                            startX + iconSize + spacing,
+                            e.CellBounds.Y,
+                            textSize.Width,
+                            e.CellBounds.Height
+                        );
+
+                        TextRenderer.DrawText(e.Graphics, buttonText, e.CellStyle.Font,
+                            textRect, e.CellStyle.ForeColor, TextFormatFlags.VerticalCenter);
+                    }
+
+                    e.Handled = true;
+                }
+            }
         }
+
     }
 }

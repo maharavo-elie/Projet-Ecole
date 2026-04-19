@@ -26,13 +26,13 @@ namespace universite
 
         private void Btn_conf_params_Click(object sender, EventArgs e)
         {
-            Params @params = new Params();
+            Profil @params = new Profil();
             LoadContent(@params);
         }
 
         private void Btn_droit_Click(object sender, EventArgs e)
         {
-            Frais frais = new Frais();
+            Config frais = new Config();
             LoadContent(frais);
         }
 

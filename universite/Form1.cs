@@ -22,7 +22,6 @@ namespace universite
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Size = new Size(1020, 560);
             Login login = new Login();
             loadContent(login);
         }
@@ -52,21 +51,21 @@ namespace universite
             }
         }
 
-        private void BtnSinscrire_Click_1(object sender, EventArgs e)
+        private void Quitter_Click_1(object sender, EventArgs e)
         {
-            SingIn singIn = new SingIn();
-            loadContent(singIn);
+            Application.Exit(); 
         }
 
-        private void BtnSeConnecter_Click(object sender, EventArgs e)
+        private void BtnSeConnecter_Click_1(object sender, EventArgs e)
         {
             Login login = new Login();
             loadContent(login);
         }
 
-        private void Quitter_Click(object sender, EventArgs e)
+        private void BtnSinscrire_Click(object sender, EventArgs e)
         {
-            this.Close();
+            SingIn singIn = new SingIn();
+            loadContent(singIn);
         }
     }
 }

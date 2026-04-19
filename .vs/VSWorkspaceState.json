@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\universite"
   ],
-  "SelectedNode": "\\universite.slnx",
+  "SelectedNode": "\\universite\\Etudiant.cs",
   "PreviewInSolutionExplorer": false
 }

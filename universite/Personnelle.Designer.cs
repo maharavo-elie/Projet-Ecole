@@ -51,7 +51,7 @@
             // 
             this.conteneur.Location = new System.Drawing.Point(253, 57);
             this.conteneur.Name = "conteneur";
-            this.conteneur.Size = new System.Drawing.Size(559, 486);
+            this.conteneur.Size = new System.Drawing.Size(559, 432);
             this.conteneur.TabIndex = 3;
             // 
             // Liste_secertaireBtn
@@ -100,7 +100,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(815, 55);
+            this.panel1.Size = new System.Drawing.Size(817, 55);
             this.panel1.TabIndex = 0;
             // 
             // Personnelle
@@ -110,7 +110,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.conteneur);
             this.Name = "Personnelle";
-            this.Size = new System.Drawing.Size(815, 546);
+            this.Size = new System.Drawing.Size(817, 489);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

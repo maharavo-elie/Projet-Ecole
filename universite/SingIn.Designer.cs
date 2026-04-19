@@ -82,9 +82,9 @@
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(3, 42);
+            this.panel2.Location = new System.Drawing.Point(3, 49);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(347, 352);
+            this.panel2.Size = new System.Drawing.Size(347, 345);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -99,7 +99,7 @@
             this.Btn_inscrire.FillColor = System.Drawing.Color.Blue;
             this.Btn_inscrire.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
             this.Btn_inscrire.ForeColor = System.Drawing.Color.White;
-            this.Btn_inscrire.Location = new System.Drawing.Point(15, 310);
+            this.Btn_inscrire.Location = new System.Drawing.Point(15, 289);
             this.Btn_inscrire.Name = "Btn_inscrire";
             this.Btn_inscrire.Size = new System.Drawing.Size(313, 39);
             this.Btn_inscrire.TabIndex = 18;
@@ -121,7 +121,7 @@
             this.cmdps.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdps.ForeColor = System.Drawing.Color.Black;
             this.cmdps.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmdps.Location = new System.Drawing.Point(15, 234);
+            this.cmdps.Location = new System.Drawing.Point(15, 228);
             this.cmdps.Name = "cmdps";
             this.cmdps.PlaceholderText = "";
             this.cmdps.SelectedText = "";
@@ -144,7 +144,7 @@
             this.mdps.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.mdps.ForeColor = System.Drawing.Color.Black;
             this.mdps.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.mdps.Location = new System.Drawing.Point(15, 184);
+            this.mdps.Location = new System.Drawing.Point(15, 178);
             this.mdps.Name = "mdps";
             this.mdps.PlaceholderText = "";
             this.mdps.SelectedText = "";
@@ -167,7 +167,7 @@
             this.nom_univ.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.nom_univ.ForeColor = System.Drawing.Color.Black;
             this.nom_univ.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.nom_univ.Location = new System.Drawing.Point(15, 134);
+            this.nom_univ.Location = new System.Drawing.Point(15, 128);
             this.nom_univ.Name = "nom_univ";
             this.nom_univ.PlaceholderText = "";
             this.nom_univ.SelectedText = "";
@@ -189,7 +189,7 @@
             this.email.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.email.ForeColor = System.Drawing.Color.Black;
             this.email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.email.Location = new System.Drawing.Point(15, 84);
+            this.email.Location = new System.Drawing.Point(15, 78);
             this.email.Name = "email";
             this.email.PlaceholderText = "";
             this.email.SelectedText = "";
@@ -212,7 +212,7 @@
             this.nom_utilisateur.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.nom_utilisateur.ForeColor = System.Drawing.Color.Black;
             this.nom_utilisateur.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.nom_utilisateur.Location = new System.Drawing.Point(15, 34);
+            this.nom_utilisateur.Location = new System.Drawing.Point(15, 28);
             this.nom_utilisateur.Name = "nom_utilisateur";
             this.nom_utilisateur.PlaceholderText = "";
             this.nom_utilisateur.SelectedText = "";
@@ -224,7 +224,7 @@
             this.voir_mdps.AutoSize = true;
             this.voir_mdps.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.voir_mdps.ForeColor = System.Drawing.Color.Blue;
-            this.voir_mdps.Location = new System.Drawing.Point(148, 269);
+            this.voir_mdps.Location = new System.Drawing.Point(148, 263);
             this.voir_mdps.Name = "voir_mdps";
             this.voir_mdps.Size = new System.Drawing.Size(180, 17);
             this.voir_mdps.TabIndex = 11;
@@ -236,7 +236,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(12, 213);
+            this.label6.Location = new System.Drawing.Point(12, 207);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(227, 18);
             this.label6.TabIndex = 9;
@@ -246,7 +246,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(12, 163);
+            this.label5.Location = new System.Drawing.Point(12, 157);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(111, 18);
             this.label5.TabIndex = 7;
@@ -256,7 +256,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(12, 113);
+            this.label4.Location = new System.Drawing.Point(12, 107);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(156, 18);
             this.label4.TabIndex = 5;
@@ -266,7 +266,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(12, 63);
+            this.label3.Location = new System.Drawing.Point(12, 57);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 18);
             this.label3.TabIndex = 3;
@@ -276,7 +276,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(12, 13);
+            this.label2.Location = new System.Drawing.Point(12, 7);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(136, 18);
             this.label2.TabIndex = 0;

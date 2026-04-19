@@ -66,8 +66,9 @@ namespace universite
                 {
                     Session.ecole = reader["nom_universite"].ToString();
                     Session.type = reader["type"].ToString();
+                    Session.email = reader["email"].ToString();
                     this.ParentForm.Hide();
-                    Dashboard dashboard = new Dashboard();
+                    FenetrePrincipale dashboard = new FenetrePrincipale();
                     dashboard.Show();
                 }
                 else
@@ -78,9 +79,25 @@ namespace universite
             }
         }
 
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Enter)
+            {
+                Btn_connecter.PerformClick();
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
         private void Login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Mot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+             ForgotPwd forgotPwd = new ForgotPwd();
+             forgotPwd.ShowDialog();
         }
     }
 }

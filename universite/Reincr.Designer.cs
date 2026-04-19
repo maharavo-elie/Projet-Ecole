@@ -35,6 +35,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelVisible = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.Redouble = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.Passant = new Guna.UI2.WinForms.Guna2RadioButton();
             this.AnneeUniversitaire = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Parcours = new System.Windows.Forms.ComboBox();
@@ -80,21 +83,18 @@
             this.label16 = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label8 = new System.Windows.Forms.Label();
-            this.Passant = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.Redouble = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panelVisible.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.Panel18ans.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Matricule
             // 
             this.Matricule.AutoSize = true;
             this.Matricule.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.Matricule.Location = new System.Drawing.Point(786, 52);
+            this.Matricule.Location = new System.Drawing.Point(781, 54);
             this.Matricule.Name = "Matricule";
             this.Matricule.Size = new System.Drawing.Size(0, 17);
             this.Matricule.TabIndex = 134;
@@ -105,7 +105,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(55, 53);
+            this.label2.Location = new System.Drawing.Point(55, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 16);
             this.label2.TabIndex = 101;
@@ -123,7 +123,7 @@
             this.Num_Matricule.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num_Matricule.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Num_Matricule.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Num_Matricule.Location = new System.Drawing.Point(350, 52);
+            this.Num_Matricule.Location = new System.Drawing.Point(350, 45);
             this.Num_Matricule.Name = "Num_Matricule";
             this.Num_Matricule.PlaceholderText = "Matricule";
             this.Num_Matricule.SelectedText = "";
@@ -133,7 +133,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(786, 57);
+            this.label3.Location = new System.Drawing.Point(781, 59);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 13);
             this.label3.TabIndex = 169;
@@ -143,7 +143,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Blue;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(707, 54);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(707, 44);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(70, 18);
             this.guna2HtmlLabel1.TabIndex = 168;
@@ -186,10 +186,60 @@
             this.panelVisible.Controls.Add(this.Nom);
             this.panelVisible.Controls.Add(this.label18);
             this.panelVisible.Controls.Add(this.Panel18ans);
-            this.panelVisible.Location = new System.Drawing.Point(1, 78);
+            this.panelVisible.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelVisible.Location = new System.Drawing.Point(0, 70);
             this.panelVisible.Name = "panelVisible";
-            this.panelVisible.Size = new System.Drawing.Size(812, 411);
+            this.panelVisible.Size = new System.Drawing.Size(817, 371);
             this.panelVisible.TabIndex = 171;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.Redouble);
+            this.panel1.Controls.Add(this.Passant);
+            this.panel1.Location = new System.Drawing.Point(580, 121);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(208, 47);
+            this.panel1.TabIndex = 178;
+            // 
+            // Redouble
+            // 
+            this.Redouble.AutoSize = true;
+            this.Redouble.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Redouble.CheckedState.BorderThickness = 0;
+            this.Redouble.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Redouble.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.Redouble.CheckedState.InnerOffset = -4;
+            this.Redouble.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Redouble.ForeColor = System.Drawing.Color.Blue;
+            this.Redouble.Location = new System.Drawing.Point(3, 23);
+            this.Redouble.Name = "Redouble";
+            this.Redouble.Size = new System.Drawing.Size(114, 20);
+            this.Redouble.TabIndex = 176;
+            this.Redouble.Text = "Redoublant(e)";
+            this.Redouble.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.Redouble.UncheckedState.BorderThickness = 2;
+            this.Redouble.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Redouble.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // Passant
+            // 
+            this.Passant.AutoSize = true;
+            this.Passant.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Passant.CheckedState.BorderThickness = 0;
+            this.Passant.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Passant.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.Passant.CheckedState.InnerOffset = -4;
+            this.Passant.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Passant.ForeColor = System.Drawing.Color.Blue;
+            this.Passant.Location = new System.Drawing.Point(3, 3);
+            this.Passant.Name = "Passant";
+            this.Passant.Size = new System.Drawing.Size(90, 20);
+            this.Passant.TabIndex = 177;
+            this.Passant.Text = "Passant(e)";
+            this.Passant.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.Passant.UncheckedState.BorderThickness = 2;
+            this.Passant.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Passant.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
             // AnneeUniversitaire
             // 
@@ -201,7 +251,7 @@
             "2027-2028",
             "2028-2029",
             "2029-2030"});
-            this.AnneeUniversitaire.Location = new System.Drawing.Point(402, 4);
+            this.AnneeUniversitaire.Location = new System.Drawing.Point(423, 1);
             this.AnneeUniversitaire.Name = "AnneeUniversitaire";
             this.AnneeUniversitaire.Size = new System.Drawing.Size(115, 21);
             this.AnneeUniversitaire.TabIndex = 174;
@@ -212,7 +262,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(261, 6);
+            this.label1.Location = new System.Drawing.Point(282, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 16);
             this.label1.TabIndex = 173;
@@ -228,7 +278,7 @@
             "2027-2028",
             "2028-2029",
             "2029-2030"});
-            this.Parcours.Location = new System.Drawing.Point(307, 59);
+            this.Parcours.Location = new System.Drawing.Point(307, 42);
             this.Parcours.Name = "Parcours";
             this.Parcours.Size = new System.Drawing.Size(231, 21);
             this.Parcours.TabIndex = 172;
@@ -245,11 +295,11 @@
             this.NumEtudiant.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NumEtudiant.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.NumEtudiant.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.NumEtudiant.Location = new System.Drawing.Point(581, 24);
+            this.NumEtudiant.Location = new System.Drawing.Point(583, 42);
             this.NumEtudiant.Name = "NumEtudiant";
             this.NumEtudiant.PlaceholderText = "";
             this.NumEtudiant.SelectedText = "";
-            this.NumEtudiant.Size = new System.Drawing.Size(208, 28);
+            this.NumEtudiant.Size = new System.Drawing.Size(208, 25);
             this.NumEtudiant.TabIndex = 94;
             // 
             // label13
@@ -258,7 +308,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Blue;
-            this.label13.Location = new System.Drawing.Point(578, 5);
+            this.label13.Location = new System.Drawing.Point(580, 23);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(144, 16);
             this.label13.TabIndex = 93;
@@ -268,7 +318,7 @@
             // 
             this.Niveau.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Niveau.FormattingEnabled = true;
-            this.Niveau.Location = new System.Drawing.Point(307, 103);
+            this.Niveau.Location = new System.Drawing.Point(307, 90);
             this.Niveau.Name = "Niveau";
             this.Niveau.Size = new System.Drawing.Size(231, 21);
             this.Niveau.TabIndex = 92;
@@ -282,7 +332,7 @@
             this.Check18ans.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Check18ans.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.Check18ans.ForeColor = System.Drawing.Color.Blue;
-            this.Check18ans.Location = new System.Drawing.Point(581, 181);
+            this.Check18ans.Location = new System.Drawing.Point(580, 177);
             this.Check18ans.Name = "Check18ans";
             this.Check18ans.Size = new System.Drawing.Size(164, 20);
             this.Check18ans.TabIndex = 90;
@@ -303,7 +353,7 @@
             this.Feminin.CheckedState.InnerOffset = -4;
             this.Feminin.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.Feminin.ForeColor = System.Drawing.Color.Blue;
-            this.Feminin.Location = new System.Drawing.Point(23, 331);
+            this.Feminin.Location = new System.Drawing.Point(23, 318);
             this.Feminin.Name = "Feminin";
             this.Feminin.Size = new System.Drawing.Size(77, 20);
             this.Feminin.TabIndex = 89;
@@ -323,7 +373,7 @@
             this.Masculin.CheckedState.InnerOffset = -4;
             this.Masculin.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.Masculin.ForeColor = System.Drawing.Color.Blue;
-            this.Masculin.Location = new System.Drawing.Point(23, 310);
+            this.Masculin.Location = new System.Drawing.Point(23, 297);
             this.Masculin.Name = "Masculin";
             this.Masculin.Size = new System.Drawing.Size(81, 20);
             this.Masculin.TabIndex = 88;
@@ -345,7 +395,7 @@
             this.AdresseEtudiant.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdresseEtudiant.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.AdresseEtudiant.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.AdresseEtudiant.Location = new System.Drawing.Point(581, 73);
+            this.AdresseEtudiant.Location = new System.Drawing.Point(583, 90);
             this.AdresseEtudiant.Name = "AdresseEtudiant";
             this.AdresseEtudiant.PlaceholderText = "";
             this.AdresseEtudiant.SelectedText = "";
@@ -358,7 +408,7 @@
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.Blue;
-            this.label19.Location = new System.Drawing.Point(578, 53);
+            this.label19.Location = new System.Drawing.Point(580, 72);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(211, 16);
             this.label19.TabIndex = 86;
@@ -376,7 +426,7 @@
             this.Frais.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Frais.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Frais.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Frais.Location = new System.Drawing.Point(307, 160);
+            this.Frais.Location = new System.Drawing.Point(307, 143);
             this.Frais.Name = "Frais";
             this.Frais.PlaceholderText = "";
             this.Frais.SelectedText = "";
@@ -389,7 +439,7 @@
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Blue;
-            this.label17.Location = new System.Drawing.Point(304, 140);
+            this.label17.Location = new System.Drawing.Point(304, 120);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(127, 16);
             this.label17.TabIndex = 84;
@@ -407,7 +457,7 @@
             this.NumParent.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NumParent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.NumParent.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.NumParent.Location = new System.Drawing.Point(307, 310);
+            this.NumParent.Location = new System.Drawing.Point(307, 294);
             this.NumParent.Name = "NumParent";
             this.NumParent.PlaceholderText = "";
             this.NumParent.SelectedText = "";
@@ -420,7 +470,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(304, 36);
+            this.label4.Location = new System.Drawing.Point(304, 23);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 16);
             this.label4.TabIndex = 82;
@@ -432,7 +482,7 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Blue;
-            this.label15.Location = new System.Drawing.Point(304, 291);
+            this.label15.Location = new System.Drawing.Point(304, 275);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(128, 16);
             this.label15.TabIndex = 81;
@@ -444,7 +494,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Blue;
-            this.label14.Location = new System.Drawing.Point(304, 85);
+            this.label14.Location = new System.Drawing.Point(304, 72);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(59, 16);
             this.label14.TabIndex = 80;
@@ -462,7 +512,7 @@
             this.Mere.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Mere.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Mere.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Mere.Location = new System.Drawing.Point(307, 262);
+            this.Mere.Location = new System.Drawing.Point(307, 244);
             this.Mere.Name = "Mere";
             this.Mere.PlaceholderText = "";
             this.Mere.SelectedText = "";
@@ -475,7 +525,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Blue;
-            this.label11.Location = new System.Drawing.Point(304, 241);
+            this.label11.Location = new System.Drawing.Point(304, 226);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(100, 16);
             this.label11.TabIndex = 78;
@@ -493,7 +543,7 @@
             this.Pere.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Pere.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Pere.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Pere.Location = new System.Drawing.Point(307, 213);
+            this.Pere.Location = new System.Drawing.Point(307, 196);
             this.Pere.Name = "Pere";
             this.Pere.PlaceholderText = "";
             this.Pere.SelectedText = "";
@@ -506,7 +556,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Blue;
-            this.label10.Location = new System.Drawing.Point(304, 193);
+            this.label10.Location = new System.Drawing.Point(304, 176);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(98, 16);
             this.label10.TabIndex = 76;
@@ -518,7 +568,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Blue;
-            this.label9.Location = new System.Drawing.Point(20, 288);
+            this.label9.Location = new System.Drawing.Point(20, 275);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(48, 16);
             this.label9.TabIndex = 75;
@@ -532,11 +582,11 @@
             this.InscrireBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.InscrireBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.InscrireBtn.FillColor = System.Drawing.Color.DarkOrchid;
-            this.InscrireBtn.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InscrireBtn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InscrireBtn.ForeColor = System.Drawing.Color.White;
-            this.InscrireBtn.Location = new System.Drawing.Point(366, 372);
+            this.InscrireBtn.Location = new System.Drawing.Point(328, 331);
             this.InscrireBtn.Name = "InscrireBtn";
-            this.InscrireBtn.Size = new System.Drawing.Size(103, 27);
+            this.InscrireBtn.Size = new System.Drawing.Size(125, 27);
             this.InscrireBtn.TabIndex = 74;
             this.InscrireBtn.Text = "Se réinscrire";
             this.InscrireBtn.Click += new System.EventHandler(this.InscrireBtn_Click);
@@ -552,7 +602,7 @@
             this.Date_de_naissance.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.Date_de_naissance.ForeColor = System.Drawing.Color.Blue;
             this.Date_de_naissance.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.Date_de_naissance.Location = new System.Drawing.Point(23, 156);
+            this.Date_de_naissance.Location = new System.Drawing.Point(23, 143);
             this.Date_de_naissance.MaxDate = new System.DateTime(2013, 12, 31, 0, 0, 0, 0);
             this.Date_de_naissance.MinDate = new System.DateTime(1980, 1, 1, 0, 0, 0, 0);
             this.Date_de_naissance.Name = "Date_de_naissance";
@@ -572,7 +622,7 @@
             this.Lieu_naissance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lieu_naissance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Lieu_naissance.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Lieu_naissance.Location = new System.Drawing.Point(23, 209);
+            this.Lieu_naissance.Location = new System.Drawing.Point(23, 196);
             this.Lieu_naissance.Name = "Lieu_naissance";
             this.Lieu_naissance.PlaceholderText = "";
             this.Lieu_naissance.SelectedText = "";
@@ -585,7 +635,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Blue;
-            this.label5.Location = new System.Drawing.Point(20, 189);
+            this.label5.Location = new System.Drawing.Point(20, 176);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(131, 16);
             this.label5.TabIndex = 71;
@@ -597,7 +647,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Blue;
-            this.label6.Location = new System.Drawing.Point(20, 133);
+            this.label6.Location = new System.Drawing.Point(20, 120);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(131, 16);
             this.label6.TabIndex = 70;
@@ -615,7 +665,7 @@
             this.Email.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Email.Location = new System.Drawing.Point(23, 257);
+            this.Email.Location = new System.Drawing.Point(23, 244);
             this.Email.Name = "Email";
             this.Email.PlaceholderText = "";
             this.Email.SelectedText = "";
@@ -628,7 +678,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Blue;
-            this.label7.Location = new System.Drawing.Point(20, 239);
+            this.label7.Location = new System.Drawing.Point(20, 226);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 16);
             this.label7.TabIndex = 68;
@@ -646,7 +696,7 @@
             this.Prenom.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Prenom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Prenom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Prenom.Location = new System.Drawing.Point(23, 103);
+            this.Prenom.Location = new System.Drawing.Point(23, 90);
             this.Prenom.Name = "Prenom";
             this.Prenom.PlaceholderText = "";
             this.Prenom.SelectedText = "";
@@ -659,7 +709,7 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Blue;
-            this.label12.Location = new System.Drawing.Point(20, 85);
+            this.label12.Location = new System.Drawing.Point(20, 72);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(71, 16);
             this.label12.TabIndex = 66;
@@ -677,7 +727,7 @@
             this.Nom.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Nom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Nom.Location = new System.Drawing.Point(23, 55);
+            this.Nom.Location = new System.Drawing.Point(23, 42);
             this.Nom.Name = "Nom";
             this.Nom.PlaceholderText = "";
             this.Nom.SelectedText = "";
@@ -690,7 +740,7 @@
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.Blue;
-            this.label18.Location = new System.Drawing.Point(20, 36);
+            this.label18.Location = new System.Drawing.Point(20, 23);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(44, 16);
             this.label18.TabIndex = 64;
@@ -705,7 +755,7 @@
             this.Panel18ans.Controls.Add(this.Delivrer);
             this.Panel18ans.Controls.Add(this.Cin);
             this.Panel18ans.Controls.Add(this.label22);
-            this.Panel18ans.Location = new System.Drawing.Point(581, 207);
+            this.Panel18ans.Location = new System.Drawing.Point(580, 203);
             this.Panel18ans.Name = "Panel18ans";
             this.Panel18ans.Size = new System.Drawing.Size(208, 160);
             this.Panel18ans.TabIndex = 91;
@@ -813,7 +863,7 @@
             "2027-2028",
             "2028-2029",
             "2029-2030"});
-            this.AnneeRecherche.Location = new System.Drawing.Point(117, 52);
+            this.AnneeRecherche.Location = new System.Drawing.Point(117, 45);
             this.AnneeRecherche.Name = "AnneeRecherche";
             this.AnneeRecherche.Size = new System.Drawing.Size(115, 21);
             this.AnneeRecherche.TabIndex = 172;
@@ -821,7 +871,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(498, 52);
+            this.pictureBox2.Location = new System.Drawing.Point(498, 45);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(33, 21);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -835,7 +885,7 @@
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Blue;
-            this.label16.Location = new System.Drawing.Point(272, 55);
+            this.label16.Location = new System.Drawing.Point(272, 48);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(75, 16);
             this.label16.TabIndex = 175;
@@ -849,7 +899,7 @@
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.DarkOrchid;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(815, 41);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(817, 41);
             this.guna2GradientPanel1.TabIndex = 176;
             // 
             // label8
@@ -863,55 +913,6 @@
             this.label8.Size = new System.Drawing.Size(190, 29);
             this.label8.TabIndex = 2;
             this.label8.Text = "Réinscription";
-            // 
-            // Passant
-            // 
-            this.Passant.AutoSize = true;
-            this.Passant.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Passant.CheckedState.BorderThickness = 0;
-            this.Passant.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Passant.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.Passant.CheckedState.InnerOffset = -4;
-            this.Passant.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.Passant.ForeColor = System.Drawing.Color.Blue;
-            this.Passant.Location = new System.Drawing.Point(3, 10);
-            this.Passant.Name = "Passant";
-            this.Passant.Size = new System.Drawing.Size(90, 20);
-            this.Passant.TabIndex = 177;
-            this.Passant.Text = "Passant(e)";
-            this.Passant.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.Passant.UncheckedState.BorderThickness = 2;
-            this.Passant.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.Passant.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            // 
-            // Redouble
-            // 
-            this.Redouble.AutoSize = true;
-            this.Redouble.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Redouble.CheckedState.BorderThickness = 0;
-            this.Redouble.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Redouble.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.Redouble.CheckedState.InnerOffset = -4;
-            this.Redouble.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.Redouble.ForeColor = System.Drawing.Color.Blue;
-            this.Redouble.Location = new System.Drawing.Point(3, 36);
-            this.Redouble.Name = "Redouble";
-            this.Redouble.Size = new System.Drawing.Size(114, 20);
-            this.Redouble.TabIndex = 176;
-            this.Redouble.Text = "Redoublant(e)";
-            this.Redouble.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.Redouble.UncheckedState.BorderThickness = 2;
-            this.Redouble.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.Redouble.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.Redouble);
-            this.panel1.Controls.Add(this.Passant);
-            this.panel1.Location = new System.Drawing.Point(581, 104);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 71);
-            this.panel1.TabIndex = 178;
             // 
             // Reinsc
             // 
@@ -928,17 +929,17 @@
             this.Controls.Add(this.Matricule);
             this.Controls.Add(this.label2);
             this.Name = "Reinsc";
-            this.Size = new System.Drawing.Size(815, 489);
+            this.Size = new System.Drawing.Size(817, 441);
             this.Load += new System.EventHandler(this.Reinsc_Load);
             this.panelVisible.ResumeLayout(false);
             this.panelVisible.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.Panel18ans.ResumeLayout(false);
             this.Panel18ans.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

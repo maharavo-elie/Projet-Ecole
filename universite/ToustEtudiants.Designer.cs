@@ -63,7 +63,7 @@
             this.Tableau.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Tableau.EnableHeadersVisualStyles = false;
             this.Tableau.GridColor = System.Drawing.Color.Silver;
-            this.Tableau.Location = new System.Drawing.Point(0, 30);
+            this.Tableau.Location = new System.Drawing.Point(0, 87);
             this.Tableau.Name = "Tableau";
             this.Tableau.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -82,7 +82,7 @@
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Blue;
             this.Tableau.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.Tableau.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Tableau.Size = new System.Drawing.Size(815, 459);
+            this.Tableau.Size = new System.Drawing.Size(817, 402);
             this.Tableau.TabIndex = 2;
             // 
             // label1
@@ -90,7 +90,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Purple;
-            this.label1.Location = new System.Drawing.Point(271, -3);
+            this.label1.Location = new System.Drawing.Point(271, 2);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(282, 30);
             this.label1.TabIndex = 3;
@@ -105,7 +105,7 @@
             this.Controls.Add(this.Tableau);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "ToustEtudiants";
-            this.Size = new System.Drawing.Size(815, 489);
+            this.Size = new System.Drawing.Size(817, 489);
             this.Load += new System.EventHandler(this.ToustEtudiants_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Tableau)).EndInit();
             this.ResumeLayout(false);

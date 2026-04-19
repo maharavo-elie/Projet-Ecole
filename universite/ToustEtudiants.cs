@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -83,6 +84,7 @@ namespace universite
             Tableau.Columns.Add(supprimer);
 
             Tableau.CellClick += Tableau_CellClick;
+            Tableau.CellPainting += Tableau_CellPainting;
             Tableau.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             Tableau.AllowUserToAddRows = false;
         }
@@ -121,14 +123,32 @@ namespace universite
                     string lieu_cin = reader["lieu_cin"].ToString();
                     string dateAjout = reader["ajouter_le"].ToString();
                     string ajouteur = reader["ajouter_par"].ToString();
+                    string status = reader["status"].ToString();
 
-                    MessageBox.Show(
-                        $"Année universitaire : {annee}\nNom : {nom}\nPrenom : {prenom}\nDate de naissance : {dateDeNaissance}\nLieu de naissance : {lieu_de_naissance}\nNumero : {numero}\nEmail : {email}\nMatricule : {matricule}\nSexe : {sexe}\nParcours : {parcours}\nNiveau : {niveau}" +
-                        $"\nFrais : {frais}\nPère : {pere}\nMère : {mere}\nNumero Parent : {numero_parent}\nAdresse : {adresse}\nCIN : {cin}\nDélivré le : {date_cin}\nA : {lieu_cin}\nAjouté le : {dateAjout}\nAjouté par : {ajouteur}",
-                        "Informations de l'etudiant",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Information
-                     );
+                    InfoEtudiant info = new InfoEtudiant();
+                    info.annee = annee;
+                    info.nom = nom;
+                    info.prenom = prenom;
+                    info.date_nee = dateDeNaissance;
+                    info.lieu_nee = lieu_de_naissance;
+                    info.Numero = numero;
+                    info.email = email;
+                    info.Matricules = matricule;
+                    info.sexe = sexe;
+                    info.parcours = parcours;
+                    info.niveau = niveau;
+                    info.frais = frais;
+                    info.pere = pere;
+                    info.mere = mere;
+                    info.Num_Parent = numero_parent;
+                    info.adresse = adresse;
+                    info.cin = cin;
+                    info.Date_Cin = date_cin;
+                    info.Lieu_Cin = lieu_cin;
+                    info.Dateajout = dateAjout;
+                    info.Ajouteurs = ajouteur;
+                    info.Status = status;
+                    info.ShowDialog();
                 }
             }
         }
@@ -252,10 +272,97 @@ namespace universite
             }
         }
 
+        //----NEW MDODIFICATION----\\
+        private void Tableau_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                bool isInfoColumn = e.ColumnIndex == Tableau.Columns["information"]?.Index;
+                bool isModifierColumn = e.ColumnIndex == Tableau.Columns["modifier"]?.Index;
+                bool isSupprimerColumn = e.ColumnIndex == Tableau.Columns["supprimer"]?.Index;
+
+                if (isInfoColumn || isModifierColumn || isSupprimerColumn)
+                {
+                    e.Paint(e.CellBounds, DataGridViewPaintParts.All & ~DataGridViewPaintParts.ContentForeground);
+
+                    //Image icon = null;
+                    System.Drawing.Image icon = null;
+                    string buttonText = "";
+
+                    if (isInfoColumn)
+                    {
+                        icon = Properties.Resources.icon_info;
+                        buttonText = "information";
+                    }
+                    else if (isModifierColumn)
+                    {
+                        icon = Properties.Resources.icon_modif;
+                        buttonText = "modifier";
+                    }
+                    else if (isSupprimerColumn)
+                    {
+                        icon = Properties.Resources.icon_delet;
+                        buttonText = "supprimer";
+                    }
+
+                    if (icon != null)
+                    {
+                        int iconSize = 16;
+                        int spacing = 4; // espace entre icône et texte
+
+                        // Mesurer la largeur du texte
+                        //Size textSize = TextRenderer.MeasureText(e.Graphics, buttonText, e.CellStyle.Font);
+                        System.Drawing.Size textSize = TextRenderer.MeasureText(e.Graphics, buttonText, e.CellStyle.Font);
+
+                        // Largeur totale = icône + espace + texte
+                        int totalWidth = iconSize + spacing + textSize.Width;
+
+                        // Point de départ X pour centrer le tout
+                        int startX = e.CellBounds.X + (e.CellBounds.Width - totalWidth) / 2;
+
+                        // -------- DESSINER L'ICÔNE --------
+                        Rectangle iconRect = new Rectangle(
+                            startX,
+                            e.CellBounds.Y + (e.CellBounds.Height - iconSize) / 2,
+                            iconSize,
+                            iconSize
+                        );
+                        e.Graphics.DrawImage(icon, iconRect);
+
+                        // -------- DESSINER LE TEXTE à côté de l'icône --------
+                        Rectangle textRect = new Rectangle(
+                            startX + iconSize + spacing,
+                            e.CellBounds.Y,
+                            textSize.Width,
+                            e.CellBounds.Height
+                        );
+
+                        TextRenderer.DrawText(e.Graphics, buttonText, e.CellStyle.Font,
+                            textRect, e.CellStyle.ForeColor, TextFormatFlags.VerticalCenter);
+                    }
+
+                    e.Handled = true;
+                }
+            }
+        }
+
         private void ToustEtudiants_Load(object sender, EventArgs e)
         {
             InfoEtudiant();
             LoadData();
-        }
+
+            // Fixer le DataGridView 
+            Tableau.ReadOnly = true;
+            // Empêcher l'ajout/suppression de lignes directement
+            Tableau.AllowUserToAddRows = false;
+            Tableau.AllowUserToDeleteRows = false;
+            // Désactiver le redimensionnement des colonnes 
+            Tableau.AllowUserToResizeColumns = false;
+            Tableau.AllowUserToResizeRows = false;
+            // Sélection par ligne entière 
+            Tableau.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            // Empêcher l'édition
+            Tableau.EditMode = DataGridViewEditMode.EditProgrammatically;
+        }        
     }
 }

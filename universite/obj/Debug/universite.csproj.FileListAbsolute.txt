@@ -124,3 +124,230 @@ D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.csproj.CoreCo
 D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.csproj.Up2Date
 D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.exe
 D:\ENI\projet\C#\Projet\universite\universite\obj\Debug\universite.pdb
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.csproj.AssemblyReference.cache
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Accueil.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Ajout_secretaire.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.VoirConfig.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Corbeille.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.CorbeilleEtudiant.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.CorbeilleSecretaire.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Dashboard.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Etudiant.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Form1.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Frais.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Inscription.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.ListeEtudiant.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Login.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.ModifierEtudiant.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.ModifierUser.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Params.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Personnelle.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Properties.Resources.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Parametre.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Secretaire.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.SingIn.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.ToustEtudiants.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.Reinsc.resources
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.csproj.GenerateResource.cache
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.csproj.CoreCompileInputs.cache
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\universite.exe.config
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\universite.exe
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\universite.pdb
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Google.Protobuf.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Guna.UI2.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\MySql.Data.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Buffers.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Memory.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\ZstdSharp.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Google.Protobuf.pdb
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Google.Protobuf.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\MySql.Data.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Buffers.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Memory.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.csproj.Up2Date
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.exe
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\obj\Debug\universite.pdb
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.barcodes.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.bouncy-castle-adapter.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.commons.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.forms.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.io.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.kernel.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.layout.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.pdfa.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.pdfua.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.sign.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.styledxmlparser.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.svg.dll
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.barcodes.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.bouncy-castle-adapter.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.commons.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.forms.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.io.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.kernel.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.layout.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.pdfa.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.pdfua.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.sign.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.styledxmlparser.xml
+C:\Users\Tsi Ahy\Desktop\Projet\universite\universite\bin\Debug\itext.svg.xml
+D:\Projet\universite\universite\bin\Debug\universite.exe.config
+D:\Projet\universite\universite\bin\Debug\universite.exe
+D:\Projet\universite\universite\bin\Debug\universite.pdb
+D:\Projet\universite\universite\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Projet\universite\universite\bin\Debug\Google.Protobuf.dll
+D:\Projet\universite\universite\bin\Debug\Guna.UI2.dll
+D:\Projet\universite\universite\bin\Debug\itext.barcodes.dll
+D:\Projet\universite\universite\bin\Debug\itext.bouncy-castle-adapter.dll
+D:\Projet\universite\universite\bin\Debug\itext.bouncy-castle-connector.dll
+D:\Projet\universite\universite\bin\Debug\itext.commons.dll
+D:\Projet\universite\universite\bin\Debug\itext.forms.dll
+D:\Projet\universite\universite\bin\Debug\itext.io.dll
+D:\Projet\universite\universite\bin\Debug\itext.kernel.dll
+D:\Projet\universite\universite\bin\Debug\itext.layout.dll
+D:\Projet\universite\universite\bin\Debug\itext.pdfa.dll
+D:\Projet\universite\universite\bin\Debug\itext.pdfua.dll
+D:\Projet\universite\universite\bin\Debug\itext.sign.dll
+D:\Projet\universite\universite\bin\Debug\itext.styledxmlparser.dll
+D:\Projet\universite\universite\bin\Debug\itext.svg.dll
+D:\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.dll
+D:\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Projet\universite\universite\bin\Debug\K4os.Hash.xxHash.dll
+D:\Projet\universite\universite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Projet\universite\universite\bin\Debug\MySql.Data.dll
+D:\Projet\universite\universite\bin\Debug\Newtonsoft.Json.dll
+D:\Projet\universite\universite\bin\Debug\System.Buffers.dll
+D:\Projet\universite\universite\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Projet\universite\universite\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Projet\universite\universite\bin\Debug\System.IO.Pipelines.dll
+D:\Projet\universite\universite\bin\Debug\System.Memory.dll
+D:\Projet\universite\universite\bin\Debug\System.Numerics.Vectors.dll
+D:\Projet\universite\universite\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projet\universite\universite\bin\Debug\System.Security.AccessControl.dll
+D:\Projet\universite\universite\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\Projet\universite\universite\bin\Debug\System.Security.Principal.Windows.dll
+D:\Projet\universite\universite\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Projet\universite\universite\bin\Debug\ZstdSharp.dll
+D:\Projet\universite\universite\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Projet\universite\universite\bin\Debug\Google.Protobuf.pdb
+D:\Projet\universite\universite\bin\Debug\Google.Protobuf.xml
+D:\Projet\universite\universite\bin\Debug\itext.barcodes.xml
+D:\Projet\universite\universite\bin\Debug\itext.bouncy-castle-adapter.xml
+D:\Projet\universite\universite\bin\Debug\itext.bouncy-castle-connector.xml
+D:\Projet\universite\universite\bin\Debug\itext.commons.xml
+D:\Projet\universite\universite\bin\Debug\itext.forms.xml
+D:\Projet\universite\universite\bin\Debug\itext.io.xml
+D:\Projet\universite\universite\bin\Debug\itext.kernel.xml
+D:\Projet\universite\universite\bin\Debug\itext.layout.xml
+D:\Projet\universite\universite\bin\Debug\itext.pdfa.xml
+D:\Projet\universite\universite\bin\Debug\itext.pdfua.xml
+D:\Projet\universite\universite\bin\Debug\itext.sign.xml
+D:\Projet\universite\universite\bin\Debug\itext.styledxmlparser.xml
+D:\Projet\universite\universite\bin\Debug\itext.svg.xml
+D:\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.xml
+D:\Projet\universite\universite\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Projet\universite\universite\bin\Debug\K4os.Hash.xxHash.xml
+D:\Projet\universite\universite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Projet\universite\universite\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Projet\universite\universite\bin\Debug\MySql.Data.xml
+D:\Projet\universite\universite\bin\Debug\Newtonsoft.Json.xml
+D:\Projet\universite\universite\bin\Debug\System.Buffers.xml
+D:\Projet\universite\universite\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Projet\universite\universite\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Projet\universite\universite\bin\Debug\System.IO.Pipelines.xml
+D:\Projet\universite\universite\bin\Debug\System.Memory.xml
+D:\Projet\universite\universite\bin\Debug\System.Numerics.Vectors.xml
+D:\Projet\universite\universite\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projet\universite\universite\bin\Debug\System.Security.AccessControl.xml
+D:\Projet\universite\universite\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\Projet\universite\universite\bin\Debug\System.Security.Principal.Windows.xml
+D:\Projet\universite\universite\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Projet\universite\universite\obj\Debug\universite.csproj.AssemblyReference.cache
+D:\Projet\universite\universite\obj\Debug\universite.TableauBord.resources
+D:\Projet\universite\universite\obj\Debug\universite.Ajout_secretaire.resources
+D:\Projet\universite\universite\obj\Debug\universite.VoirConfig.resources
+D:\Projet\universite\universite\obj\Debug\universite.Corbeille.resources
+D:\Projet\universite\universite\obj\Debug\universite.CorbeilleEtudiant.resources
+D:\Projet\universite\universite\obj\Debug\universite.CorbeilleSecretaire.resources
+D:\Projet\universite\universite\obj\Debug\universite.FenetrePrincipale.resources
+D:\Projet\universite\universite\obj\Debug\universite.Etudiant.resources
+D:\Projet\universite\universite\obj\Debug\universite.Form1.resources
+D:\Projet\universite\universite\obj\Debug\universite.Inscription.resources
+D:\Projet\universite\universite\obj\Debug\universite.ListeEtudiant.resources
+D:\Projet\universite\universite\obj\Debug\universite.Login.resources
+D:\Projet\universite\universite\obj\Debug\universite.ModifierEtudiant.resources
+D:\Projet\universite\universite\obj\Debug\universite.ModifierUser.resources
+D:\Projet\universite\universite\obj\Debug\universite.Personnelle.resources
+D:\Projet\universite\universite\obj\Debug\universite.Properties.Resources.resources
+D:\Projet\universite\universite\obj\Debug\universite.Parametre.resources
+D:\Projet\universite\universite\obj\Debug\universite.Secretaire.resources
+D:\Projet\universite\universite\obj\Debug\universite.SingIn.resources
+D:\Projet\universite\universite\obj\Debug\universite.ToustEtudiants.resources
+D:\Projet\universite\universite\obj\Debug\universite.Reinsc.resources
+D:\Projet\universite\universite\obj\Debug\universite.csproj.GenerateResource.cache
+D:\Projet\universite\universite\obj\Debug\universite.csproj.CoreCompileInputs.cache
+D:\Projet\universite\universite\obj\Debug\universite.csproj.Up2Date
+D:\Projet\universite\universite\obj\Debug\universite.exe
+D:\Projet\universite\universite\obj\Debug\universite.pdb
+D:\Projet\universite\universite\obj\Debug\universite.ForgotPwd.resources
+D:\Projet\universite\universite\obj\Debug\universite.Config.resources
+D:\Projet\universite\universite\obj\Debug\universite.Profil.resources
+D:\Projet\universite\universite\obj\Debug\universite.InfoProfil.resources
+D:\Projet\universite\universite\obj\Debug\universite.ModifProfil.resources
+D:\Projet\universite\universite\obj\Debug\universite.ModifPwd.resources
+D:\Projet\universite\universite\obj\Debug\universite.InfoEtudiant.resources

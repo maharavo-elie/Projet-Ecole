@@ -43,7 +43,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(115, 14);
+            this.label1.Location = new System.Drawing.Point(115, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(225, 23);
             this.label1.TabIndex = 1;
@@ -59,7 +59,7 @@
             this.Inscrire_btn.FillColor = System.Drawing.Color.SpringGreen;
             this.Inscrire_btn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.Inscrire_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Inscrire_btn.Location = new System.Drawing.Point(392, 14);
+            this.Inscrire_btn.Location = new System.Drawing.Point(392, 8);
             this.Inscrire_btn.Name = "Inscrire_btn";
             this.Inscrire_btn.Size = new System.Drawing.Size(110, 29);
             this.Inscrire_btn.TabIndex = 6;
@@ -76,7 +76,7 @@
             this.Reinscrire_btn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Reinscrire_btn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.Reinscrire_btn.ForeColor = System.Drawing.Color.White;
-            this.Reinscrire_btn.Location = new System.Drawing.Point(519, 14);
+            this.Reinscrire_btn.Location = new System.Drawing.Point(519, 8);
             this.Reinscrire_btn.Name = "Reinscrire_btn";
             this.Reinscrire_btn.Size = new System.Drawing.Size(110, 29);
             this.Reinscrire_btn.TabIndex = 7;
@@ -86,7 +86,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(16, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(16, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(49, 43);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -95,9 +95,10 @@
             // 
             // conteneur_etudiant
             // 
-            this.conteneur_etudiant.Location = new System.Drawing.Point(0, 54);
+            this.conteneur_etudiant.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.conteneur_etudiant.Location = new System.Drawing.Point(0, 43);
             this.conteneur_etudiant.Name = "conteneur_etudiant";
-            this.conteneur_etudiant.Size = new System.Drawing.Size(815, 489);
+            this.conteneur_etudiant.Size = new System.Drawing.Size(817, 446);
             this.conteneur_etudiant.TabIndex = 5;
             // 
             // ListeBtn
@@ -110,7 +111,7 @@
             this.ListeBtn.FillColor = System.Drawing.Color.Pink;
             this.ListeBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.ListeBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ListeBtn.Location = new System.Drawing.Point(648, 14);
+            this.ListeBtn.Location = new System.Drawing.Point(648, 8);
             this.ListeBtn.Name = "ListeBtn";
             this.ListeBtn.Size = new System.Drawing.Size(149, 29);
             this.ListeBtn.TabIndex = 12;
@@ -129,7 +130,7 @@
             this.Controls.Add(this.conteneur_etudiant);
             this.Controls.Add(this.label1);
             this.Name = "Etudiant";
-            this.Size = new System.Drawing.Size(815, 546);
+            this.Size = new System.Drawing.Size(817, 489);
             this.Load += new System.EventHandler(this.Etudiant_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

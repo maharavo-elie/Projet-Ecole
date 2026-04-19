@@ -58,6 +58,7 @@ namespace universite
             Table_AnneeUniv.Columns.Add(supprimer);
 
             Table_AnneeUniv.CellClick += Tableau_CellClick;
+            Table_AnneeUniv.CellPainting += Tableau_CellPaintingAnnee;
             Table_AnneeUniv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             Table_AnneeUniv.AllowUserToAddRows = false;
         }
@@ -142,6 +143,7 @@ namespace universite
             TableParcours.Columns.Add(supprimer);
 
             TableParcours.CellClick += Tableau_CellClick;
+            TableParcours.CellPainting += Tableau_CellPaintingParcours;
             TableParcours.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             TableParcours.AllowUserToAddRows = false;
 
@@ -185,7 +187,7 @@ namespace universite
             TableNiv.Columns["id"].Visible = false;
             TableNiv.RowHeadersVisible = false;
 
-            //Supprimer Parcours//
+            //Supprimer Niveau//
             DataGridViewButtonColumn supprimer = new DataGridViewButtonColumn();
             supprimer.HeaderText = "";
             supprimer.Text = "supprimer";
@@ -194,6 +196,7 @@ namespace universite
             TableNiv.Columns.Add(supprimer);
 
             TableNiv.CellClick += Tableau_CellClick;
+            TableNiv.CellPainting+= Tableau_CellPaintingNiveau;
             TableNiv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             TableNiv.AllowUserToAddRows = false;
         }
@@ -311,7 +314,197 @@ namespace universite
                 }
             }
         }
-                
+
+        //----NEW MDODIFICATION----\\
+        private void Tableau_CellPaintingAnnee(object sender, DataGridViewCellPaintingEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                bool isSupprimerColumn = e.ColumnIndex == Table_AnneeUniv.Columns["supprimer"]?.Index;
+
+                if (isSupprimerColumn)
+                {
+                    e.Paint(e.CellBounds, DataGridViewPaintParts.All & ~DataGridViewPaintParts.ContentForeground);
+
+                    Image icon = null;
+                    string buttonText = "";
+                   
+                    if (isSupprimerColumn)
+                    {
+                        icon = Properties.Resources.icon_delet;
+                        buttonText = "supprimer";
+                    }
+
+                    if (icon != null)
+                    {
+                        int iconSize = 16;
+                        int spacing = 4; // espace entre icône et texte
+
+                        // Mesurer la largeur du texte
+                        Size textSize = TextRenderer.MeasureText(e.Graphics, buttonText, e.CellStyle.Font);
+
+                        // Largeur totale = icône + espace + texte
+                        int totalWidth = iconSize + spacing + textSize.Width;
+
+                        // Point de départ X pour centrer le tout
+                        int startX = e.CellBounds.X + (e.CellBounds.Width - totalWidth) / 2;
+
+                        // -------- DESSINER L'ICÔNE --------
+                        Rectangle iconRect = new Rectangle(
+                            startX,
+                            e.CellBounds.Y + (e.CellBounds.Height - iconSize) / 2,
+                            iconSize,
+                            iconSize
+                        );
+                        e.Graphics.DrawImage(icon, iconRect);
+
+                        // -------- DESSINER LE TEXTE à côté de l'icône --------
+                        Rectangle textRect = new Rectangle(
+                            startX + iconSize + spacing,
+                            e.CellBounds.Y,
+                            textSize.Width,
+                            e.CellBounds.Height
+                        );
+
+                        TextRenderer.DrawText(e.Graphics, buttonText, e.CellStyle.Font,
+                            textRect, e.CellStyle.ForeColor, TextFormatFlags.VerticalCenter);
+                    }
+
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private void Tableau_CellPaintingParcours(object sender, DataGridViewCellPaintingEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                bool isSupprimerColumn = e.ColumnIndex == Table_AnneeUniv.Columns["supprimer"]?.Index;
+
+                if (isSupprimerColumn)
+                {
+                    e.Paint(e.CellBounds, DataGridViewPaintParts.All & ~DataGridViewPaintParts.ContentForeground);
+
+                    Image icon = null;
+                    string buttonText = "";
+
+                    if (isSupprimerColumn)
+                    {
+                        icon = Properties.Resources.icon_delet;
+                        buttonText = "supprimer";
+                    }
+
+                    if (icon != null)
+                    {
+                        int iconSize = 16;
+                        int spacing = 4; // espace entre icône et texte
+
+                        // Mesurer la largeur du texte
+                        Size textSize = TextRenderer.MeasureText(e.Graphics, buttonText, e.CellStyle.Font);
+
+                        // Largeur totale = icône + espace + texte
+                        int totalWidth = iconSize + spacing + textSize.Width;
+
+                        // Point de départ X pour centrer le tout
+                        int startX = e.CellBounds.X + (e.CellBounds.Width - totalWidth) / 2;
+
+                        // -------- DESSINER L'ICÔNE --------
+                        Rectangle iconRect = new Rectangle(
+                            startX,
+                            e.CellBounds.Y + (e.CellBounds.Height - iconSize) / 2,
+                            iconSize,
+                            iconSize
+                        );
+                        e.Graphics.DrawImage(icon, iconRect);
+
+                        // -------- DESSINER LE TEXTE à côté de l'icône --------
+                        Rectangle textRect = new Rectangle(
+                            startX + iconSize + spacing,
+                            e.CellBounds.Y,
+                            textSize.Width,
+                            e.CellBounds.Height
+                        );
+
+                        TextRenderer.DrawText(e.Graphics, buttonText, e.CellStyle.Font,
+                            textRect, e.CellStyle.ForeColor, TextFormatFlags.VerticalCenter);
+                    }
+
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private void Tableau_CellPaintingNiveau(object sender, DataGridViewCellPaintingEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                bool isSupprimerColumn = e.ColumnIndex == Table_AnneeUniv.Columns["supprimer"]?.Index;
+
+                if (isSupprimerColumn)
+                {
+                    e.Paint(e.CellBounds, DataGridViewPaintParts.All & ~DataGridViewPaintParts.ContentForeground);
+
+                    Image icon = null;
+                    string buttonText = "";
+
+                    if (isSupprimerColumn)
+                    {
+                        icon = Properties.Resources.icon_delet;
+                        buttonText = "supprimer";
+                    }
+
+                    if (icon != null)
+                    {
+                        int iconSize = 16;
+                        int spacing = 4; // espace entre icône et texte
+
+                        // Mesurer la largeur du texte
+                        Size textSize = TextRenderer.MeasureText(e.Graphics, buttonText, e.CellStyle.Font);
+
+                        // Largeur totale = icône + espace + texte
+                        int totalWidth = iconSize + spacing + textSize.Width;
+
+                        // Point de départ X pour centrer le tout
+                        int startX = e.CellBounds.X + (e.CellBounds.Width - totalWidth) / 2;
+
+                        // -------- DESSINER L'ICÔNE --------
+                        Rectangle iconRect = new Rectangle(
+                            startX,
+                            e.CellBounds.Y + (e.CellBounds.Height - iconSize) / 2,
+                            iconSize,
+                            iconSize
+                        );
+                        e.Graphics.DrawImage(icon, iconRect);
+
+                        // -------- DESSINER LE TEXTE à côté de l'icône --------
+                        Rectangle textRect = new Rectangle(
+                            startX + iconSize + spacing,
+                            e.CellBounds.Y,
+                            textSize.Width,
+                            e.CellBounds.Height
+                        );
+
+                        TextRenderer.DrawText(e.Graphics, buttonText, e.CellStyle.Font,
+                            textRect, e.CellStyle.ForeColor, TextFormatFlags.VerticalCenter);
+                    }
+
+                    e.Handled = true;
+                }
+            }
+        }
+
+        // Fixée le tableau
+        private void FixerDataGridView(DataGridView dgv)
+        {
+            dgv.ReadOnly = true;
+            dgv.AllowUserToAddRows = false;
+            dgv.AllowUserToDeleteRows = false;
+            dgv.AllowUserToResizeColumns = false;
+            dgv.AllowUserToResizeRows = false;
+            dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgv.EditMode = DataGridViewEditMode.EditProgrammatically;
+        }
+
         private void VoirConfig_Load(object sender, EventArgs e)
         {
             Table_Annee();
@@ -322,6 +515,10 @@ namespace universite
             LoadParcours();
             Parcours.SelectedIndexChanged += Parcours_SelectedIndexChanged;
             LoadNiveaux();
+            //Appelle du fonction fixée
+            FixerDataGridView(Table_AnneeUniv);
+            FixerDataGridView(TableNiv);
+            FixerDataGridView(TableParcours);
         }
 
         private void Parcours_SelectedIndexChanged(object sender, EventArgs e)

@@ -80,7 +80,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(18, 109);
+            this.label1.Location = new System.Drawing.Point(18, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 0;
@@ -98,7 +98,7 @@
             this.Nom.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Nom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Nom.Location = new System.Drawing.Point(21, 128);
+            this.Nom.Location = new System.Drawing.Point(21, 93);
             this.Nom.Name = "Nom";
             this.Nom.PlaceholderText = "";
             this.Nom.SelectedText = "";
@@ -117,7 +117,7 @@
             this.Prenom.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Prenom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Prenom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Prenom.Location = new System.Drawing.Point(21, 176);
+            this.Prenom.Location = new System.Drawing.Point(21, 141);
             this.Prenom.Name = "Prenom";
             this.Prenom.PlaceholderText = "";
             this.Prenom.SelectedText = "";
@@ -130,7 +130,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(18, 158);
+            this.label2.Location = new System.Drawing.Point(18, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 16);
             this.label2.TabIndex = 2;
@@ -148,7 +148,7 @@
             this.Email.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Email.Location = new System.Drawing.Point(21, 330);
+            this.Email.Location = new System.Drawing.Point(21, 302);
             this.Email.Name = "Email";
             this.Email.PlaceholderText = "";
             this.Email.SelectedText = "";
@@ -161,7 +161,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Blue;
-            this.label3.Location = new System.Drawing.Point(18, 312);
+            this.label3.Location = new System.Drawing.Point(18, 284);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 16);
             this.label3.TabIndex = 4;
@@ -173,7 +173,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(18, 206);
+            this.label4.Location = new System.Drawing.Point(18, 174);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(131, 16);
             this.label4.TabIndex = 6;
@@ -191,7 +191,7 @@
             this.Lieu_naissance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lieu_naissance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Lieu_naissance.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Lieu_naissance.Location = new System.Drawing.Point(21, 282);
+            this.Lieu_naissance.Location = new System.Drawing.Point(21, 254);
             this.Lieu_naissance.Name = "Lieu_naissance";
             this.Lieu_naissance.PlaceholderText = "";
             this.Lieu_naissance.SelectedText = "";
@@ -204,7 +204,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Blue;
-            this.label5.Location = new System.Drawing.Point(18, 262);
+            this.label5.Location = new System.Drawing.Point(18, 234);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(131, 16);
             this.label5.TabIndex = 8;
@@ -221,7 +221,7 @@
             this.Date_de_naissance.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.Date_de_naissance.ForeColor = System.Drawing.Color.Blue;
             this.Date_de_naissance.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.Date_de_naissance.Location = new System.Drawing.Point(21, 229);
+            this.Date_de_naissance.Location = new System.Drawing.Point(21, 197);
             this.Date_de_naissance.MaxDate = new System.DateTime(2013, 12, 31, 0, 0, 0, 0);
             this.Date_de_naissance.MinDate = new System.DateTime(1980, 1, 1, 0, 0, 0, 0);
             this.Date_de_naissance.Name = "Date_de_naissance";
@@ -237,7 +237,7 @@
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.DarkOrchid;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(815, 41);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(817, 41);
             this.guna2GradientPanel1.TabIndex = 15;
             // 
             // label8
@@ -262,9 +262,9 @@
             this.InscrireBtn.FillColor = System.Drawing.Color.DarkOrchid;
             this.InscrireBtn.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InscrireBtn.ForeColor = System.Drawing.Color.White;
-            this.InscrireBtn.Location = new System.Drawing.Point(688, 440);
+            this.InscrireBtn.Location = new System.Drawing.Point(657, 401);
             this.InscrireBtn.Name = "InscrireBtn";
-            this.InscrireBtn.Size = new System.Drawing.Size(94, 27);
+            this.InscrireBtn.Size = new System.Drawing.Size(125, 27);
             this.InscrireBtn.TabIndex = 16;
             this.InscrireBtn.Text = "Inscrire";
             this.InscrireBtn.Click += new System.EventHandler(this.inscrireBtn_Click);
@@ -275,7 +275,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Blue;
-            this.label9.Location = new System.Drawing.Point(18, 361);
+            this.label9.Location = new System.Drawing.Point(18, 333);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(48, 16);
             this.label9.TabIndex = 18;
@@ -293,7 +293,7 @@
             this.Pere.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Pere.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Pere.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Pere.Location = new System.Drawing.Point(331, 282);
+            this.Pere.Location = new System.Drawing.Point(331, 254);
             this.Pere.Name = "Pere";
             this.Pere.PlaceholderText = "";
             this.Pere.SelectedText = "";
@@ -306,7 +306,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Blue;
-            this.label10.Location = new System.Drawing.Point(328, 262);
+            this.label10.Location = new System.Drawing.Point(328, 234);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(98, 16);
             this.label10.TabIndex = 20;
@@ -318,7 +318,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Blue;
-            this.label11.Location = new System.Drawing.Point(328, 312);
+            this.label11.Location = new System.Drawing.Point(328, 284);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(100, 16);
             this.label11.TabIndex = 22;
@@ -336,7 +336,7 @@
             this.Mere.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Mere.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Mere.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Mere.Location = new System.Drawing.Point(331, 330);
+            this.Mere.Location = new System.Drawing.Point(331, 302);
             this.Mere.Name = "Mere";
             this.Mere.PlaceholderText = "";
             this.Mere.SelectedText = "";
@@ -349,7 +349,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Blue;
-            this.label14.Location = new System.Drawing.Point(328, 158);
+            this.label14.Location = new System.Drawing.Point(328, 123);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(59, 16);
             this.label14.TabIndex = 29;
@@ -361,7 +361,7 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Blue;
-            this.label15.Location = new System.Drawing.Point(328, 358);
+            this.label15.Location = new System.Drawing.Point(328, 333);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(128, 16);
             this.label15.TabIndex = 31;
@@ -373,7 +373,7 @@
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Blue;
-            this.label16.Location = new System.Drawing.Point(328, 109);
+            this.label16.Location = new System.Drawing.Point(328, 74);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(71, 16);
             this.label16.TabIndex = 33;
@@ -391,7 +391,7 @@
             this.NumParent.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NumParent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.NumParent.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.NumParent.Location = new System.Drawing.Point(331, 378);
+            this.NumParent.Location = new System.Drawing.Point(331, 355);
             this.NumParent.Name = "NumParent";
             this.NumParent.PlaceholderText = "";
             this.NumParent.SelectedText = "";
@@ -410,7 +410,7 @@
             this.Frais.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Frais.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Frais.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Frais.Location = new System.Drawing.Point(331, 233);
+            this.Frais.Location = new System.Drawing.Point(331, 197);
             this.Frais.Name = "Frais";
             this.Frais.PlaceholderText = "";
             this.Frais.SelectedText = "";
@@ -423,7 +423,7 @@
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Blue;
-            this.label17.Location = new System.Drawing.Point(328, 213);
+            this.label17.Location = new System.Drawing.Point(328, 174);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(127, 16);
             this.label17.TabIndex = 36;
@@ -441,7 +441,7 @@
             this.AdresseEtudiant.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdresseEtudiant.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.AdresseEtudiant.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.AdresseEtudiant.Location = new System.Drawing.Point(586, 177);
+            this.AdresseEtudiant.Location = new System.Drawing.Point(586, 141);
             this.AdresseEtudiant.Name = "AdresseEtudiant";
             this.AdresseEtudiant.PlaceholderText = "";
             this.AdresseEtudiant.SelectedText = "";
@@ -454,7 +454,7 @@
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.Blue;
-            this.label19.Location = new System.Drawing.Point(583, 157);
+            this.label19.Location = new System.Drawing.Point(583, 123);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(211, 16);
             this.label19.TabIndex = 40;
@@ -466,11 +466,11 @@
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Blue;
-            this.label20.Location = new System.Drawing.Point(256, 58);
+            this.label20.Location = new System.Drawing.Point(256, 50);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(140, 16);
+            this.label20.Size = new System.Drawing.Size(139, 16);
             this.label20.TabIndex = 42;
-            this.label20.Text = "Année Universitaire :";
+            this.label20.Text = "Année universitaire :";
             // 
             // Masculin
             // 
@@ -482,7 +482,7 @@
             this.Masculin.CheckedState.InnerOffset = -4;
             this.Masculin.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.Masculin.ForeColor = System.Drawing.Color.Blue;
-            this.Masculin.Location = new System.Drawing.Point(21, 383);
+            this.Masculin.Location = new System.Drawing.Point(21, 355);
             this.Masculin.Name = "Masculin";
             this.Masculin.Size = new System.Drawing.Size(81, 20);
             this.Masculin.TabIndex = 44;
@@ -502,7 +502,7 @@
             this.Feminin.CheckedState.InnerOffset = -4;
             this.Feminin.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.Feminin.ForeColor = System.Drawing.Color.Blue;
-            this.Feminin.Location = new System.Drawing.Point(21, 404);
+            this.Feminin.Location = new System.Drawing.Point(21, 376);
             this.Feminin.Name = "Feminin";
             this.Feminin.Size = new System.Drawing.Size(77, 20);
             this.Feminin.TabIndex = 45;
@@ -521,7 +521,7 @@
             this.Check18ans.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Check18ans.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.Check18ans.ForeColor = System.Drawing.Color.Blue;
-            this.Check18ans.Location = new System.Drawing.Point(586, 209);
+            this.Check18ans.Location = new System.Drawing.Point(586, 185);
             this.Check18ans.Name = "Check18ans";
             this.Check18ans.Size = new System.Drawing.Size(164, 20);
             this.Check18ans.TabIndex = 47;
@@ -634,16 +634,16 @@
             this.Panel18ans.Controls.Add(this.Delivrer);
             this.Panel18ans.Controls.Add(this.Cin);
             this.Panel18ans.Controls.Add(this.label7);
-            this.Panel18ans.Location = new System.Drawing.Point(586, 235);
+            this.Panel18ans.Location = new System.Drawing.Point(586, 208);
             this.Panel18ans.Name = "Panel18ans";
-            this.Panel18ans.Size = new System.Drawing.Size(196, 175);
+            this.Panel18ans.Size = new System.Drawing.Size(196, 180);
             this.Panel18ans.TabIndex = 54;
             // 
             // Niveau
             // 
             this.Niveau.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Niveau.FormattingEnabled = true;
-            this.Niveau.Location = new System.Drawing.Point(331, 176);
+            this.Niveau.Location = new System.Drawing.Point(331, 141);
             this.Niveau.Name = "Niveau";
             this.Niveau.Size = new System.Drawing.Size(209, 21);
             this.Niveau.TabIndex = 57;
@@ -660,11 +660,11 @@
             this.NumEtudiant.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NumEtudiant.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.NumEtudiant.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.NumEtudiant.Location = new System.Drawing.Point(586, 128);
+            this.NumEtudiant.Location = new System.Drawing.Point(586, 93);
             this.NumEtudiant.Name = "NumEtudiant";
             this.NumEtudiant.PlaceholderText = "";
             this.NumEtudiant.SelectedText = "";
-            this.NumEtudiant.Size = new System.Drawing.Size(196, 28);
+            this.NumEtudiant.Size = new System.Drawing.Size(196, 25);
             this.NumEtudiant.TabIndex = 62;
             // 
             // label13
@@ -673,7 +673,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Blue;
-            this.label13.Location = new System.Drawing.Point(583, 109);
+            this.label13.Location = new System.Drawing.Point(583, 74);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(144, 16);
             this.label13.TabIndex = 61;
@@ -689,7 +689,7 @@
             "2027-2028",
             "2028-2029",
             "2029-2030"});
-            this.Parcours.Location = new System.Drawing.Point(331, 128);
+            this.Parcours.Location = new System.Drawing.Point(331, 93);
             this.Parcours.Name = "Parcours";
             this.Parcours.Size = new System.Drawing.Size(209, 21);
             this.Parcours.TabIndex = 63;
@@ -705,9 +705,9 @@
             "2027-2028",
             "2028-2029",
             "2029-2030"});
-            this.AnneeCombo.Location = new System.Drawing.Point(411, 57);
+            this.AnneeCombo.Location = new System.Drawing.Point(402, 49);
             this.AnneeCombo.Name = "AnneeCombo";
-            this.AnneeCombo.Size = new System.Drawing.Size(145, 21);
+            this.AnneeCombo.Size = new System.Drawing.Size(138, 21);
             this.AnneeCombo.TabIndex = 64;
             // 
             // Inscription
@@ -751,7 +751,7 @@
             this.Controls.Add(this.Panel18ans);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "Inscription";
-            this.Size = new System.Drawing.Size(815, 489);
+            this.Size = new System.Drawing.Size(817, 441);
             this.Load += new System.EventHandler(this.Inscription_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();

@@ -63,9 +63,8 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Blue;
             this.Tableau.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.Tableau.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Tableau.Size = new System.Drawing.Size(994, 419);
+            this.Tableau.Size = new System.Drawing.Size(815, 452);
             this.Tableau.TabIndex = 2;
-            this.Tableau.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Tableau_CellContentClick);
             // 
             // CorbeilleEtudiant
             // 
@@ -73,7 +72,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Tableau);
             this.Name = "CorbeilleEtudiant";
-            this.Size = new System.Drawing.Size(994, 419);
+            this.Size = new System.Drawing.Size(815, 452);
             this.Load += new System.EventHandler(this.CorbeilleEtudiant_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Tableau)).EndInit();
             this.ResumeLayout(false);

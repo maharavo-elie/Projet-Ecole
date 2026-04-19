@@ -40,7 +40,7 @@
             this.params_conteneur.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.params_conteneur.Location = new System.Drawing.Point(0, 45);
             this.params_conteneur.Name = "params_conteneur";
-            this.params_conteneur.Size = new System.Drawing.Size(815, 501);
+            this.params_conteneur.Size = new System.Drawing.Size(817, 444);
             this.params_conteneur.TabIndex = 10;
             // 
             // Btn_conf_params
@@ -57,7 +57,7 @@
             this.Btn_conf_params.Name = "Btn_conf_params";
             this.Btn_conf_params.Size = new System.Drawing.Size(182, 31);
             this.Btn_conf_params.TabIndex = 17;
-            this.Btn_conf_params.Text = "Configurer mes options";
+            this.Btn_conf_params.Text = "Mon profil";
             this.Btn_conf_params.Click += new System.EventHandler(this.Btn_conf_params_Click);
             // 
             // btn_voir_conf
@@ -91,7 +91,7 @@
             this.Btn_droit.Name = "Btn_droit";
             this.Btn_droit.Size = new System.Drawing.Size(182, 31);
             this.Btn_droit.TabIndex = 19;
-            this.Btn_droit.Text = "Droit d\'insription";
+            this.Btn_droit.Text = "Configurer mes options";
             this.Btn_droit.Click += new System.EventHandler(this.Btn_droit_Click);
             // 
             // label1
@@ -115,7 +115,7 @@
             this.Controls.Add(this.Btn_conf_params);
             this.Controls.Add(this.params_conteneur);
             this.Name = "Parametre";
-            this.Size = new System.Drawing.Size(815, 546);
+            this.Size = new System.Drawing.Size(817, 489);
             this.ResumeLayout(false);
             this.PerformLayout();
 

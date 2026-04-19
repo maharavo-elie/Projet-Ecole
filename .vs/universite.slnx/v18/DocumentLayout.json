@@ -1,74 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ENI\\projet\\C#\\Projet\\universite\\",
+  "WorkspaceRootPath": "D:\\Projet\\universite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\reincr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\reincr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\listeetudiant.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\listeetudiant.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\inscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\inscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\inscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\inscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\corbeilleetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\corbeilleetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\corbeilleetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\corbeilleetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\listeetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\Projet\\universite\\universite\\listeetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\listeetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\listeetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\listeetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\etudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\etudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\toustetudiants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\toustetudiants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\modifieretudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\modifieretudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\modifieretudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\modifieretudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\toustetudiants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|d:\\projet\\universite\\universite\\toustetudiants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\toustetudiants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\voirconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\voirconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\Projet\\universite\\universite\\infoetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\infoetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Secretaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\Secretaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\secretaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\secretaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|D:\\Projet\\universite\\universite\\infoetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{42F4814D-EB79-4D78-9CB5-2A4F2C91FD6E}|universite\\universite.csproj|solutionrelative:universite\\infoetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,199 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Etudiant.cs [Design]",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Etudiant.cs",
-              "RelativeDocumentMoniker": "universite\\Etudiant.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Etudiant.cs [Design]",
-              "RelativeToolTip": "universite\\Etudiant.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "ToustEtudiants.cs",
+              "DocumentMoniker": "D:\\Projet\\universite\\universite\\ToustEtudiants.cs",
+              "RelativeDocumentMoniker": "universite\\ToustEtudiants.cs",
+              "ToolTip": "D:\\Projet\\universite\\universite\\ToustEtudiants.cs",
+              "RelativeToolTip": "universite\\ToustEtudiants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T07:10:18.849Z"
+              "WhenOpened": "2026-04-19T11:50:06.256Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Reincr.cs [Design]",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Reincr.cs",
-              "RelativeDocumentMoniker": "universite\\Reincr.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Reincr.cs [Design]",
-              "RelativeToolTip": "universite\\Reincr.cs [Design]",
+              "Title": "ListeEtudiant.cs",
+              "DocumentMoniker": "D:\\Projet\\universite\\universite\\ListeEtudiant.cs",
+              "RelativeDocumentMoniker": "universite\\ListeEtudiant.cs",
+              "ToolTip": "D:\\Projet\\universite\\universite\\ListeEtudiant.cs",
+              "RelativeToolTip": "universite\\ListeEtudiant.cs",
+              "ViewState": "AgIAAA0CAAAAAAAAAAAAACUCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T14:53:35.763Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListeEtudiant.Designer.cs",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ListeEtudiant.Designer.cs",
-              "RelativeDocumentMoniker": "universite\\ListeEtudiant.Designer.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ListeEtudiant.Designer.cs",
-              "RelativeToolTip": "universite\\ListeEtudiant.Designer.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAlwEgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T07:29:51.49Z",
+              "WhenOpened": "2026-04-19T11:43:31.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Inscription.cs [Design]",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Inscription.cs",
-              "RelativeDocumentMoniker": "universite\\Inscription.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Inscription.cs [Design]",
-              "RelativeToolTip": "universite\\Inscription.cs [Design]",
+              "Title": "InfoEtudiant.cs [Design]",
+              "DocumentMoniker": "D:\\Projet\\universite\\universite\\InfoEtudiant.cs",
+              "RelativeDocumentMoniker": "universite\\InfoEtudiant.cs",
+              "ToolTip": "D:\\Projet\\universite\\universite\\InfoEtudiant.cs [Design]",
+              "RelativeToolTip": "universite\\InfoEtudiant.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T15:06:06.102Z"
+              "WhenOpened": "2026-04-19T11:38:32.947Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Inscription.cs",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Inscription.cs",
-              "RelativeDocumentMoniker": "universite\\Inscription.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Inscription.cs",
-              "RelativeToolTip": "universite\\Inscription.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAALMAAABTAAAAAAAAAA==",
+              "Title": "InfoEtudiant.cs",
+              "DocumentMoniker": "D:\\Projet\\universite\\universite\\InfoEtudiant.cs",
+              "RelativeDocumentMoniker": "universite\\InfoEtudiant.cs",
+              "ToolTip": "D:\\Projet\\universite\\universite\\InfoEtudiant.cs",
+              "RelativeToolTip": "universite\\InfoEtudiant.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T14:54:20.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CorbeilleEtudiant.cs [Design]",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\CorbeilleEtudiant.cs",
-              "RelativeDocumentMoniker": "universite\\CorbeilleEtudiant.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\CorbeilleEtudiant.cs [Design]",
-              "RelativeToolTip": "universite\\CorbeilleEtudiant.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T07:31:06.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CorbeilleEtudiant.cs",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\CorbeilleEtudiant.cs",
-              "RelativeDocumentMoniker": "universite\\CorbeilleEtudiant.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\CorbeilleEtudiant.cs",
-              "RelativeToolTip": "universite\\CorbeilleEtudiant.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAAAMgAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T07:31:13.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ListeEtudiant.cs [Design]",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ListeEtudiant.cs",
-              "RelativeDocumentMoniker": "universite\\ListeEtudiant.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ListeEtudiant.cs [Design]",
-              "RelativeToolTip": "universite\\ListeEtudiant.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T19:57:18.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ToustEtudiants.cs [Design]",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ToustEtudiants.cs",
-              "RelativeDocumentMoniker": "universite\\ToustEtudiants.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ToustEtudiants.cs [Design]",
-              "RelativeToolTip": "universite\\ToustEtudiants.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T14:27:38.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListeEtudiant.cs",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ListeEtudiant.cs",
-              "RelativeDocumentMoniker": "universite\\ListeEtudiant.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ListeEtudiant.cs",
-              "RelativeToolTip": "universite\\ListeEtudiant.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAAAOgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T14:22:34.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ModifierEtudiant.cs [Design]",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ModifierEtudiant.cs",
-              "RelativeDocumentMoniker": "universite\\ModifierEtudiant.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ModifierEtudiant.cs [Design]",
-              "RelativeToolTip": "universite\\ModifierEtudiant.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T14:49:20.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Dashboard.cs",
-              "RelativeDocumentMoniker": "universite\\Dashboard.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Dashboard.cs [Design]",
-              "RelativeToolTip": "universite\\Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T06:58:28.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ModifierEtudiant.cs",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ModifierEtudiant.cs",
-              "RelativeDocumentMoniker": "universite\\ModifierEtudiant.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ModifierEtudiant.cs",
-              "RelativeToolTip": "universite\\ModifierEtudiant.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T14:31:18.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ToustEtudiants.cs",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ToustEtudiants.cs",
-              "RelativeDocumentMoniker": "universite\\ToustEtudiants.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\ToustEtudiants.cs",
-              "RelativeToolTip": "universite\\ToustEtudiants.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAKQAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T14:27:44.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Secretaire.cs",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Secretaire.cs",
-              "RelativeDocumentMoniker": "universite\\Secretaire.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Secretaire.cs",
-              "RelativeToolTip": "universite\\Secretaire.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAqwL8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T20:04:51.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Secretaire.cs [Design]",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\Secretaire.cs",
-              "RelativeDocumentMoniker": "universite\\Secretaire.cs",
-              "ToolTip": "C:\\Users\\Tsi Ahy\\Desktop\\universite\\universite\\Secretaire.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T20:03:04.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "VoirConfig.cs",
-              "DocumentMoniker": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\VoirConfig.cs",
-              "RelativeDocumentMoniker": "universite\\VoirConfig.cs",
-              "ToolTip": "D:\\ENI\\projet\\C#\\Projet\\universite\\universite\\VoirConfig.cs",
-              "RelativeToolTip": "universite\\VoirConfig.cs",
-              "ViewState": "AgIAAB0BAAAAAAAAAAAQwCIBAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T19:30:39.099Z"
+              "WhenOpened": "2026-04-19T11:40:33.176Z"
             }
           ]
         }
